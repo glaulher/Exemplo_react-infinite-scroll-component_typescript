@@ -1,0 +1,32 @@
+.containerStyle {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.post {
+  color: blue;
+  height: 250px;
+  text-align: center;
+  padding: 5px 10px;
+  background: #eee;
+  margin-top: 15px
+}
+
+#page-home .content header {
+  margin: 48px 0 0;
+}
+
+#page-home .content main {
+  flex: 1;
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-home .content main h1 {
+  font-size: 54px;
+  color: var(--title-color);
+}
+
